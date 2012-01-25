@@ -2,14 +2,11 @@ package com.example.demo;
 
 public class HelloWorld {
 
-	/**
-	 * @param args
-	 */
 	private int variableA=0;
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello Kitty :-)");
+		System.out.println("Hello from Sammi & Pippa :-)");
 		HelloWorld hw = new HelloWorld();
 		hw.setVariable(10);
 		System.out.println(hw.getVariable());
