@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.lesson1;
 
 public class HelloWorld {
 
