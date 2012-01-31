@@ -3,4 +3,11 @@
   <groupId>com.example.demo</groupId>
   <version>0.0.1-SNAPSHOT</version>
   <artifactId>cucumber-jvm-demo</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.10</version>
+  	</dependency>
+  </dependencies>
 </project>
