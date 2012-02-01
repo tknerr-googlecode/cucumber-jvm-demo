@@ -14,5 +14,10 @@ public class ToDoManagerTest {
 		tdmanager.createList("Umzug");
 		assertTrue(tdmanager.hasList("Umzug"));
 	}
-
+	@Test
+	public void testCreateToDo(){
+		tdmanager.createList("Umzug");
+		tdmanager.addToDo("Umzug", "Kisten packen");
+		assertEquals("Kisten packen", tdmanager.getToDosList("Umzug").get(0).getAufgabe());
+	}
 }
